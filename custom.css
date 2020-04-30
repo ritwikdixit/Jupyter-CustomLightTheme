@@ -1,0 +1,56 @@
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+    position: relative;
+}
+#jupyter-main-app {
+    position: relative;
+}
+
+
+div#notebook {
+  font-size: 14.5px;
+  line-height: 22px;
+}
+
+div.CodeMirror {
+  font-family: 'Consolas';
+  font-size: 13px;
+  border: none;
+  border-radius: 0;
+  line-height: 1.36em;
+}
+
+div.input_area {
+  padding: 2px;
+}
+
+.cm-s-ipython span.cm-keyword {
+  color: #108020;
+}
+
+.cm-s-ipython span.cm-def {
+  color: #8e44ad;
+}
+
+.cm-s-ipython span.cm-number {
+  color: #2980b9;
+}
+
+.cm-s-ipython span.cm-operator {
+  color: #9b59b6;
+}
+
+.cm-s-ipython span.cm-builtin {
+  color: #e75b0c;
+}
+
+.cm-s-ipython span.cm-string {
+  color: #982121;
+}
+
+.cm-s-ipython span.cm-comment {
+  color: #336767;
+}
